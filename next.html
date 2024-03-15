@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<!-- saved from url=(0045)https://nemilim.github.io/netflix/redeem.html -->
+<html lang="ar" style="border-color: rgb(145,20,20);"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>حسابات نتفلكس</title>
+    <meta property="og:image" content="assets/img/netflix-logo-circle-png-5.png">
+    <meta name="twitter:image" content="assets/img/Robux_2019_Logo_gold.svg.png">
+    <meta name="description" content="حسابات نتفلكس">
+    <link rel="icon" type="image/png" sizes="400x300" href="./next_files/netflix-logo-circle-png-5.png">
+    <link rel="stylesheet" href="./next_files/bootstrap.min.css">
+    <link rel="stylesheet" href="./next_files/css">
+    <link rel="stylesheet" href="./next_files/css(1)">
+    <link rel="stylesheet" href="./next_files/css(2)">
+    <link rel="stylesheet" href="./next_files/css(3)">
+    <link rel="stylesheet" href="./next_files/css(4)">
+    <link rel="stylesheet" href="./next_files/animate.min.css">
+    <link rel="stylesheet" href="./next_files/btmbar.css">
+    <link rel="stylesheet" href="./next_files/Clean-Button-Scale-Hover-Effect.css">
+    <link rel="stylesheet" href="./next_files/Loading-Page-Animation-Style-styles.css">
+    <link rel="stylesheet" href="./next_files/OcOrato---Login-form.css">
+    <link rel="stylesheet" href="./next_files/Popup-Element-Overlay-popupElement.css">
+    <link rel="stylesheet" href="./next_files/Popup-Element-Overlay.css">
+    <link rel="stylesheet" href="./next_files/Popup-ToS.css">
+    <link rel="stylesheet" href="./next_files/Rounded-Button.css">
+    <link rel="stylesheet" href="./next_files/Stats-icons.css">
+    <link rel="stylesheet" href="./next_files/Steps-Progressbar-1.css">
+    <link rel="stylesheet" href="./next_files/steps-progressbar.css">
+    <link rel="stylesheet" href="./next_files/Transparent-Incremental-Number-Counter.css">
+    <link rel="stylesheet" href="./next_files/Ultimate-Accordion-with-arrow-icon.css">
+    <link rel="stylesheet" href="./next_files/bootstrap(1).min.css">
+    <link rel="stylesheet" href="./next_files/animate(1).min.css">
+    <link rel="stylesheet" href="./next_files/btmbar(1).css">
+    <link rel="stylesheet" href="./next_files/Popup-Element-Overlay-popupElement(1).css">
+    <link rel="stylesheet" href="./next_files/Ultimate-Accordion-with-arrow-icon(1).css">
+</head>
+
+<body class="text-center" style="backdrop-filter: blur(8px);-webkit-backdrop-filter: blur(8px);border-style: none;">
+    <form class="text-center text-primary" id="form" style="font-family: Cairo, sans-serif;background: var(--bs-white);border-radius: 71px;max-width: 667px;min-width: 245px;color: rgb(8,22,44);">
+        <h1 id="head" style="color: var(--bs-dark);font-family: Cairo, sans-serif;"><strong><span style="color: rgb(57, 59, 61);">! حساب نتفلكس&nbsp;</span></strong></h1>
+        <div class="steps-progressbar" style="font-family: Cairo, sans-serif;font-weight: bold;">
+            <ul>
+                <li class="previous">البحث عن حساب جديد</li>
+                <li class="active">تم العثور على حساب</li>
+                <li class="active">جاري ارسال الحساب</li>
+                <li>تفعيل رقم هاتفك الخطوة الاخيرة</li>
+            </ul>
+        </div>
+        <div></div>
+        <div class="form-group mb-3"><small class="form-text fs-6" style="font-family: Cairo, sans-serif;color: var(--bs-gray-900);font-size: 23px;font-weight: bold;"></small>
+            <div class="row gx-1 gy-1 row-cols-1 row-cols-md-1 text-center d-lg-flex justify-content-lg-center align-items-lg-center">
+                <div class="col-xl-3">
+                    <div class="text-center d-flex flex-column justify-content-center align-items-center py-3" style="color: var(--bs-red);">
+                        <div class="bs-icon-xl bs-icon-circle bs-icon-primary d-flex flex-shrink-0 justify-content-center align-items-center d-inline-block mb-2 bs-icon" style="background: rgb(0,0,0);color: var(--bs-red);"><img class="img-fluid bounce animated infinite" src="./next_files/netflix-logo-circle-png-5.png" style="width: 57px;"></div>
+
+
+    
+  <title>تغيير النص كل 3 ثوانٍ</title>
+  <style>
+    #text {
+      font-size: 24px;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    #progress {
+      width: 300px;
+      height: 20px;
+      background-color: #f2f2f2;
+      border-radius: 10px;
+      overflow: hidden;
+      margin-bottom: 10px;
+    }
+
+    #progress-value {
+      height: 100%;
+      background-color: #232323;
+      width: 0;
+      transition: width 0.3s ease;
+    }
+
+    #loading-message {
+      text-align: center;
+      font-size: 18px;
+      color: #888;
+      display: none;
+      margin-bottom: 10px;
+    }
+
+    #btn {
+      display: none;
+      text-align: center;
+      margin-top: 10px;
+    }
+  </style>
+  <script>
+    // قائمة بالنصوص التي ترغب في تغييرها
+    var texts = [
+      "جاري البحث عن حساب!",
+      "تم العثور على حساب",
+      "جاري تفعيل الحساب",
+      "تحقق من رقم هاتفك",
+      "الخطوة الاخيرة فعل رقم هاتفك"
+    ];
+
+    // مؤشر لتتبع النص الحالي
+    var currentText = 0;
+
+    // دالة لتحديث النص والشريط التقدم
+    function updateText() {
+      var textElement = document.getElementById("text");
+      var progressValueElement = document.getElementById("progress-value");
+      var loadingMessageElement = document.getElementById("loading-message");
+      var btnElement = document.getElementById("btn");
+      if (currentText < texts.length) {
+        textElement.innerHTML = texts[currentText];
+        currentText++;
+        var progressPercentage = (currentText / texts.length) * 100;
+        progressValueElement.style.width = progressPercentage + "%";
+      } else {
+        clearInterval(textInterval); // إيقاف دورة التحديث
+        loadingMessageElement.style.display = "none"; // إخفاء رسالة الانتظار
+        btnElement.style.display = "block"; // عرض الزر بعد انتهاء الشريط التقدم
+      }
+    }
+
+    // تحديث النص كل 3 ثوانٍ
+    var textInterval = setInterval(updateText, 1000);
+  </script>
+
+
+  <h1 id="text">الخطوة الاخيرة فعل رقم هاتفك</h1>
+  <div id="progress">
+    <div id="progress-value" style="width: 100%;"></div>
+  </div>
+  <div id="loading-message" style="display: none;">برجاء الانتظار...</div>
+  <a id="btn" class="btn btn-primary text-truncate fs-5" role="button" style="border-radius: 48px; font-size: 26px; background: rgb(86, 172, 238); font-family: Cairo, sans-serif; font-weight: bold; width: 187.75px; border-width: 0px; display: block;" href="https://netfz.blogspot.com/" target="_blank">تفعيل رقم هاتفى</a>
+
+
+                        <div class="px-3"></div>
+                        <div id="LoadingPage" class="loading-icon"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="fs-4 mb-0" style="font-family: Cairo, sans-serif;color: #a9995f;"></p>
+    </form>
+    <script src="./next_files/jquery.min.js.تنزيل"></script>
+    <script src="./next_files/bootstrap.min.js.تنزيل"></script>
+    <script src="./next_files/bs-init.js.تنزيل"></script>
+    <script src="./next_files/Animated-Numbers-Vanilla-JS-animated-number-vanilla.js.تنزيل"></script>
+    <script src="./next_files/Loading-Page-Animation-Style-onload.js.تنزيل"></script>
+    <script src="./next_files/Popup-Element-Overlay-popupElement.js.تنزيل"></script>
+    <script src="./next_files/jquery.min(1).js.تنزيل"></script>
+    <script src="./next_files/bootstrap.min(1).js.تنزيل"></script>
+    <script src="./next_files/bs-init(1).js.تنزيل"></script>
+
+
+
+</body></html>
